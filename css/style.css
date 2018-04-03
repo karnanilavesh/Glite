@@ -1,0 +1,183 @@
+.checkbox label .toggle,.checkbox-inline .toggle{
+	margin-left:-20px;margin-right:5px
+}
+.toggle{
+	position:relative;
+	overflow:hidden
+}
+.toggle input[type=checkbox]{
+	display:none
+}
+.toggle-group{
+	position:absolute;width:200%;top:0;bottom:0;left:0;transition:left .35s;-webkit-transition:left .35s;-moz-user-select:none;-webkit-user-select:none
+}
+.toggle.off .toggle-group{
+	left:-100%
+}
+.toggle-on{
+	position:absolute;top:0;bottom:0;left:0;right:50%;margin:0;border:0;border-radius:0
+}
+.toggle-off{
+	position:absolute;top:0;bottom:0;left:50%;right:0;margin:0;border:0;border-radius:0
+}
+.toggle-handle{
+	position:relative;margin:0 auto;padding-top:0;padding-bottom:0;height:100%;width:0;border-width:0 1px
+}
+.toggle.btn{
+	min-width:59px;min-height:34px
+}
+.toggle-on.btn{
+	padding-right:24px
+}
+.toggle-off.btn{
+	padding-left:24px
+}
+.toggle.btn-lg{
+	min-width:79px;min-height:45px
+}
+.toggle-on.btn-lg{
+	padding-right:31px
+}
+.toggle-off.btn-lg{
+	padding-left:31px
+}
+.toggle-handle.btn-lg{
+	width:40px
+}
+.toggle.btn-sm{
+	min-width:50px;min-height:30px
+}
+.toggle-on.btn-sm{
+	padding-right:20px
+}
+.toggle-off.btn-sm{
+	padding-left:20px
+}
+.toggle.btn-xs{
+	min-width:35px;min-height:22px
+}
+.toggle-on.btn-xs{
+	padding-right:12px
+}
+.toggle-off.btn-xs{
+	padding-left:12px
+}
+#above{
+	text-align: center;
+	padding:20px;
+}
+.txt{
+	width:100%;
+}
+.editor{
+	padding:0px;
+}
+h1{
+	text-align:center;
+}
+#htmltitle, #csstitle, #jstitle{
+	border-radius: 7px 20px 0px 0px;
+	background-color:cadetblue;
+	width:150px;
+	text-align: center;
+	color: #FFFFFF;
+	height:100%;
+}
+#result1{
+	width:100%;
+}
+#result2{
+	width:100%;
+}
+#test{ 
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color:aqua;
+}
+#changeres1, #changeres2{
+	width:20px;
+	height:20px;
+	background-color:green;
+	position:absolute;
+	margin:20px;
+	opacity: 0.1;
+	right : 0;
+}
+#resouter{
+	display:none;
+}
+#top{
+	height:50px;
+	background-color:#00BE6D;
+}
+.icons{
+	margin:10px;
+	font-size: 30px;
+	color:#FFF;
+	opacity: 2;
+	cursor: default;
+}
+.icons:active{
+	color:#22FF22;
+}
+#icongrp{
+	float:right;
+}
+#popupbg{ 
+	position:fixed; 
+	background:rgba(0,0,0,0.6); 
+	z-index:20; 
+	width:100%; 
+	height:100%;
+	display:none;
+	top:0%;
+	left:0%;
+}
+#popup , #savepopup,#ftdiv{
+	background:white; 
+	position: fixed;
+	padding: 20px;
+	border: solid #00BE6D 5px;
+	border-radius: 30px;
+	display:none;
+}
+
+#ftdiv1{
+	overflow-x: hidden;
+    	overflow-y: scroll;
+}
+.settings-elt , .save-elt, .open-elt, .cpdiv{
+	margin:6px;
+}
+#logo{
+	color:#FFF;
+	font-size:30px;
+	margin-left:30px;
+	font-weight: 600;
+}
+.b{
+	color: yellow;
+	font-weight: 900;
+}
+#opOuter,#ofOuter{
+	height:50%;
+}
+#notification{
+	height:28px;
+	position:fixed;
+	bottom:0%;
+	width:100%; 
+	display:none;
+	z-index:15;
+	opacity:0.8;
+}
+#notificationArea{
+	background-color:#222;
+	color:#FFF;
+	size:15px;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+	font-size: 20px;
+}
+
